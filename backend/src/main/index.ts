@@ -7,6 +7,10 @@ import authRoutes from "../Auth/Routes/AuthRoutes";
 import employeeRoutes from "../Employee/Routes/Routes";
 import orderRoutes from "../Orders/Routes/orderRoutes";
 import path from "path";
+import dotenv from "dotenv";
+dotenv.config();
+
+
 const app = express();
 
 //defualt middlewares
